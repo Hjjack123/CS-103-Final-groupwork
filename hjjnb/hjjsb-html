@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="famous-players.css">
+</head>
+<body>
+    <header>
+        <h1>Famous Players</h1>
+        <p>Football, also called soccer in some regions, is one of the most popular sports in the world.</p>
+    </header>
 
+    <div id="container">
+    <nav>
+        <ul>
+            <li><a href="../soccer/soccer.html">HOME</a></li>
+            <li><a href="../featured-clubs/featured-clubs.html">FEATURED CLUBS</a></li>
+            <li><a href="famous-players.html">FAMOUS PLAYERS</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Famous Players</h2>
+            <h3>Lionel Messi</h3>
+            <p>
+                Lionel Messi is known for balance, dribbling, vision, and passing. Many people consider
+                him one of the greatest players in football history. His World Cup win with Argentina in
+                2022 made his career even more complete.
+            </p>
+            <img src="../src/8.webp" alt="Lionel Messi playing for Argentina" width="260">
+
+            <h3>Cristiano Ronaldo</h3>
+            <p>
+                Cristiano Ronaldo is famous for athletic power, finishing ability, and discipline. He is
+                often used as an example of hard work and long-term excellence in professional sports.
+            </p>
+            <img src="../src/7.avif" alt="Cristiano Ronaldo during a match" width="260">
+
+            <h3>Pelé</h3>
+            <p>
+                Pelé is one of the most important figures in football history. He helped make the sport
+                globally famous and is remembered for skill, creativity, and success at the World Cup.
+            </p>
+            <img src="../src/5.webp" alt="Pelé holding the World Cup trophy" width="260">
+
+            <h3>Diego Maradona</h3>
+            <p>
+                Diego Maradona is remembered for his extraordinary technical skill and strong personality.
+                He became a legendary symbol for Argentina and for football fans who admire creativity
+                and passion.
+            </p>
+            <img src="../src/6.jpg" alt="Diego Maradona playing for Argentina" width="200">;
+
+            <h2>2026 FIFA World Cup</h2>
+            <p>
+                The 2026 FIFA World Cup is another reason why global interest in soccer continues to grow.
+                Major international tournaments bring together players, supporters, and media from many
+                different countries.
+            </p>
+            <figure>
+                <img src="../src/1.webp" alt="2026 FIFA World Cup logo" width="220">
+                <figcaption>2026 FIFA World Cup logo.</figcaption>
+            </figure>
+    </main>
+</div>
+</body>
+</html>
