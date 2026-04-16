@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0b0c;
+    color: #e0e0e0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../src/ball picture.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+header h1 {
+    padding-top:2vw;
+    font-size: 7vw;
+    color: #00ff87;
+    text-shadow: 0 0 10px rgba(0,255,135,0.5);
+}
+
+header p {
+    padding-top: 1vw;
+    color: #00ff87;
+}
+
+#container {
+    max-width: 1000px;
+    margin: -70px auto 0;
+    background: #16181a;
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+nav {
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+nav li{
+    padding-left: 7vw;
+    display: inline;
+    list-style: none;
+}
+
+nav a {
+    color: #00ff87;
+    padding: 15px;
+    display: inline;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background: #212427;
+    border-left: 4px solid #00ff87;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+img {
+    transition: 0.5s;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul{
+        display: flex;
+        padding: 10px 0;
+    }
+}
